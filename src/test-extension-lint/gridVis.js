@@ -10,7 +10,6 @@ export default function main() {
         const currentState = viewstate.viewFlags.grid
         const newViewFlags = viewstate.viewFlags.copy({grid: !currentState});
         viewstate.viewFlags = newViewFlags;
-        console.log("Grid lines toggled.");
       } else {  
         console.error("No active viewport found.");  
         return false

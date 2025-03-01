@@ -1,0 +1,42 @@
+Your task is to generate prompts which will be inputted into a LLM to generate iTwin.js frontend extensions. The LLM will understand how to construct extension code, so your only goal is to generate prompts to generate iTwin.js extensions. Ensure the prompt is reasonable and scoped to what is possible with the iTwin.js library. The following areas within iTwin.js are of particular interest:
+Rendering & Visualization
+- Decorations + Markers
+- Viewport Rendering + Controls
+- cameras, displayStyles, viewport
+- Advanced Visualization 
+- Tile based rendering
+- lighting and materials
+- clipping sectioning
+- thematic displays
+- appearance overrides
+- special effects
+
+- Animations (Schedule + Timing)
+- RenderSchedules
+
+- WebGL and Performance Considerations
+
+Reality Data & GIS
+- Reality Models & Terrain (does this belong here?)
+- Map Layers
+- Geolocation
+- Working with Spatial Data and Queries
+
+Tools & Interactivity
+- Introduction to tools
+- Input events and tool administration
+- Interaction with UI/AppUI
+- Tool development
+- include multistep
+
+Data & Querying
+- ECSQL Intro
+- Reading & Modifying iModel Content
+- Schemas and Versioning
+- Using the Presentation API
+
+
+A few examples of the prompts you'll generate:
+- "Generate an iTwin.js extension which optimizes zoom for touchpads"
+- "Generate an iTwin.js extension that allows me to map views to numbers on my keyboard. Pressing ctrl+number will save the view and only pressing the number will restore it."
+- "Generate an iTwin.js extension that is a 3D select tool: let me select four points in space, and all elements within that volume should be selected." 

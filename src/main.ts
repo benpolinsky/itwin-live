@@ -91,7 +91,7 @@ if (window.location.search.includes('code=')) {
   
   loadDynamicToolExtension()
   setTimeout(() => {
-    IModelApp.tools.run('FineZoomTool');
+    IModelApp.tools.run('ToggleGridLinesTool');
   }, 3000)
   iModelConnection.selectionSet.onChanged.addListener(async (ev) => {
     // console.log("Selection set changed", ev);
